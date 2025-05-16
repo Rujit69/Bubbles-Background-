@@ -1,0 +1,15 @@
+.bubble-follower {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  pointer-events: none;
+  background: radial-gradient(circle at center, rgba(140, 100, 255, 0.8) 0, rgba(140, 100, 255, 0) 60%);
+  mix-blend-mode: hard-light;
+  opacity: 0.7;
+  z-index: 9999;
+  will-change: transform;
+  transition: background 0.2s;
+}
